@@ -1,0 +1,1 @@
+This repository demonstrates a potential issue in VBScript related to the `IsEmpty` function and early exits from functions.  Improper handling of empty parameters using `IsEmpty` and `Exit Function` can lead to subtle bugs that are difficult to track down. The `bug.vbs` file shows the problematic code, while `bugSolution.vbs` offers a more robust and clearer approach.
